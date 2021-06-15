@@ -1,6 +1,6 @@
 #include <EEPROM.h>
 #include <SoftwareSerial.h> //Create software serial object to communicate with SIM800L
-SoftwareSerial GSM(8, 9);   //SIM800L Tx & Rx is connected to Arduino #8 & #9
+SoftwareSerial GSM(8, 9);   //SIM800L Tx & Rx is connected to Arduino #8 & #9(Arduino pin8 to Sim800l TX ),(Arduino pin9 to Sim800l RX)
 
 String phone_no1 = "+971557407961"; //change + with country code and 7407961 with phone number to receive status sms
 String phone_no2 = "Enter Number2"; 
