@@ -2,7 +2,7 @@
 #include <SoftwareSerial.h> //Create software serial object to communicate with SIM800L
 SoftwareSerial GSM(8, 9);   //SIM800L Tx & Rx is connected to Arduino #8 & #9
 
-String phone_no1 = "+971557407961"; //change +92 with country code and 3378655465 with phone number to sms
+String phone_no1 = "+971557407961"; //change + with country code and 7407961 with phone number to receive status sms
 String phone_no2 = "Enter Number2"; 
 
 String        RxString  = ""; // Will hold the incoming String  from the GSM shield
